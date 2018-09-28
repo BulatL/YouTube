@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/KanalStranica.css">
+    <script src="js/KanalStranica.js" type="text/javascript"></script>
+    <link rel="icon" href="images/male-user.png">
+    
+</head>
+<body>
+    <div class="container-fluid">
+	        <nav class="navbar navbar-inverse navbar-fixed-top">
+	           <div class="container-fluid" id="containerNavbar">
+	                <div class="navbar-header">
+	                    <a href="PocetnaStranica.html" class="navbar-brand" ><span class="glyphicon glyphicon-home"></span> Youtube</a>
+	                </div>
+	                <ul class="nav navbar-nav navbar-right" id="navbarLogin">
+	                </ul>
+	                <div class="nav navbar-nav navbar-right" style="margin-top:10px;">
+		                <div class="input-group">
+		                    <input type="text" name="searchInput" placeholder="Search" class="form-control" id="txtPretraga">
+		                    <div class="input-group-btn">
+		                        <button class="btn btn-default" onclick="search()" id="searchButton">
+		                            <i class="glyphicon glyphicon-search"></i>
+		                        </button>
+		                    </div>
+		                </div>
+	                </div>
+	            </div>
+	        </nav>
+	    </div> 
+    
+  <div class="container-fluid" id="glavniContainer">    
+	    <div class="container-fluid">
+	    	<div class="row">
+                <div class="panel">
+                    <div class="panel-body" id="glavniKanalContainer">
+                        <div class="col-lg-6">
+                            <div class="container" id="KanalContainer">
+                                <img src="images/avatar.png" class="avatar">
+                                <br/><h2 id="korisnickoIme"></h2> 
+                            </div>
+                            <div class="col-lg-6" >
+                            	<div id="userButtons">
+	                       			
+			        			</div> 	        	
+                        	</div>
+                        </div>
+                        <div class="row-lg-4" id="KanalContainerDescription">
+
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+          </div>
+      
+        <div class="container-fluid" id="MyVideoContainer">
+	    	<div class="row">
+                <div class="panel">
+                    <div class="panel-heading">
+                   		<h2 id="userVideosDiv"></h2> 
+                    </div>
+                    <div class="panel-body" id="mainVideoDiv">
+                    	<div class="col-lg-12">                       	
+                       		<div class="addVideoDiv">
+                        	</div> 
+                        </div>
+                        <div id="videoDiv">	
+                        
+	                	</div>				
+	                </div>
+                </div>
+			</div>
+		</div>
+		
+		<div class="container-fluid" id="likedVideosContainer">
+	    	<div class="row">
+                <div class="panel">
+                    <div class="panel-heading">
+                   		<h2 id="likedVideosH2"></h2> 
+                    </div>
+                    <div class="panel-body" id="likedVideoDiv">
+                        <div id="likedVideoDiv">	
+                        
+	                	</div>				
+	                </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	
+        <div class="container-fluid" id="channelsIFollow">
+	    	<div class="row">
+                <div class="panel">
+                    <div class="panel-heading">
+                       <h2 id="followingChannelsH2"></h2>
+                    </div>
+                    <div class="panel-body" id="followingChannelsDiv">
+                    
+                    </div>
+				</div>
+			</div>
+	    </div>
+        
+        <div class="container-fluid" id="channelsFollowMe">
+	    	<div class="row">
+                <div class="panel">
+                    <div class="panel-heading">
+                       	<h2 id="followersChannelsH2"></h2>
+                    </div>
+                    <div class="panel-body" id="followersChannelsDiv">
+                    
+                    </div>
+				</div>
+			</div>
+	    </div>
+	    
+    <footer id="footer">
+        <p class="text-muted">Copyright &#169 2018 Marko Matijevic</p>
+    </footer>
+</body>
+</html>

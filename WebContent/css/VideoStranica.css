@@ -1,0 +1,319 @@
+@charset "utf-8";
+
+hr { 
+   display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+} 
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/drvo.jpg);
+    background-size: inherit;
+    background-position: center;
+    font-family: sans-serif;
+}
+#VideoContainer{
+    margin-top:  60px;
+    font-family: sans-serif;
+}
+a {
+    color: #9b775d;
+    text-decoration: none;
+}
+
+a:hover{
+    color:  #09820d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.ReccomendedVideo{
+    border-width:5px;  
+    border-style:inset;
+    float: right;
+    background-color: #002a44;
+    color: white;
+    text-align: center;
+}
+.currentVideo{
+    margin-left: 1em;
+}
+
+#videoInformationContainer, #komentari, .komentarContainer{
+    margin-top: 10px;
+    border-width:3px;  
+    border-style:outset;
+    border-radius: 8px;
+    width: 950px;
+    height: auto;
+    margin-left: 1em;
+}
+
+#komentarInput{
+    height: 2em;
+    font-size: 1.5em;
+    font-style: oblique;
+    color: #9b775d;
+    margin-top: 1em;
+    border-width:3px;  
+    border-style:outset;
+    border-radius: 8px;
+    width: 950px;
+}
+
+#btnCancel{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #f00;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#btnPost{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #0675bb;
+     margin-left: 39.9em;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#btnPost:hover{
+	background-color: #074b77;
+}
+
+#btnUnlike{
+    width: 50px;
+    height: 38px;
+    margin-right: 5px;
+    
+}
+#btnLike{
+    width: 50px;
+    height: 50px;
+    margin-right: 14em;
+    
+    
+}
+.viewCV{
+    margin-top: 1em;
+    margin-left: -2.2em;
+}
+
+#komentariContainer{
+    font-size: 18px;
+    padding-top: 5px;
+}
+#izmeniBtn{
+	width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 15px;	
+    outline: none;
+    font-size: 18px;
+    margin-top:5px;
+}
+#btnDelete{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #f00;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#izmeniBtn, #editInfo , #editVideo, #editComment{
+    background: #09ad03;
+}
+#izmeniBtn:hover, #editInfo:hover, #editVideo:hover, #editComment:hover{
+    background: #057201;
+}
+.caption{
+	margin-left: 1em;
+}
+
+#btnLikeComment{
+	width: 40px;
+    height: 35px;
+    margin-top: -12px;
+}
+#btnUnlikeComment{
+	float: left;
+	width: 40px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.floatRight{
+	float:right;
+}
+#footer{
+    height: 30px;
+    background-color: #333; 
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+}
+#footer  p {
+    color: white;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+#nav_wrapper{
+    margin: -40 0 0 -150;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-left: -250px;
+    margin-top: -40px;
+}
+
+#nav ul li{
+    display: inline-block;
+    a{
+    margin-top: -20px;}
+}
+
+#nav ul li:hover{
+    background-color: #333;
+    cursor: pointer;
+    
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav ul li a:hover{
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav ul li:hover ul{
+    display: block;
+    cursor: pointer;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background: #333;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+
+#nav ul ul li a,visited{
+    color: #ccc;
+    margin-top: -2.65em;
+}
+
+#nav ul li a:hover{
+    color: #3ea4ff;
+}
+
+.input-group{
+	width: 500px;
+}
+.float-right{
+	float: right;
+    margin-right: 13em;
+}
+
+.panel{
+	background: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+
+.videoInformationInput{
+	background: rgba(0,0,0,0);
+    font-size: 2em;
+	
+}
+.blockedVideo{
+	text-align: center;
+}
+#txtPretraga{
+    width: 420px;
+}
+#searchButton{
+	margin-left: -80px;
+}
+#videoBrLajkova{
+    width: 5em;
+}
+#editInfo{
+    margin-left: -5em;
+    width: auto;
+    height: 1.7em;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 15px;	
+    outline: none;
+    font-size: 1.3em;
+    margin-top:1em;
+    margin-right:0.5em;
+}
+#btnCancel2, #deleteVideo{
+    width: auto;
+    height: 1.7em;
+    border-radius: 10px;
+    background-color: #f00;
+    color: white;
+    margin-bottom: 15px;	
+    outline: none;
+    font-size: 1.3em;
+    margin-top:1em;
+    margin-right:0.5em;
+}
+#btnCancel:hover, #btnCancel2:hover, #deleteVideo:hover{
+    background: #a50415;
+}
+#videoOpis{
+    width: 20em;
+    height: auto;
+}
+#editVideo, #editComment{
+    width: 4em;
+    height: 1.7em;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 15px;	
+    outline: none;
+    font-size: 1.3em;
+    margin-top:1em;
+}
+#editComment{
+	margin-right:0.5em;
+}
+#videoFrame{
+	margin-left: 1em;
+}

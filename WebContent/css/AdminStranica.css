@@ -1,0 +1,170 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/drvo.jpg);
+    background-size: inherit;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+#glavniContainer{
+    margin-top: 7em;
+    align-items: left;
+    text-align: left;
+}
+#glavniContainer h2{
+	align-items: center;
+    text-align: center;
+}
+
+a {
+    color: #9b775d;
+    text-decoration: none;
+}
+
+a:hover{
+    color:  #09820d;
+    text-decoration: none;
+    cursor: pointer;
+}
+.caption{
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+.panel{
+	background: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 20px;
+}
+
+#searchBtn{
+    height: 34px;
+}
+
+#nav_wrapper{
+    margin: -40 0 0 -150;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-left: -250px;
+    margin-top: -40px;
+}
+
+#nav ul li{
+    display: inline-block;
+    a{
+    margin-top: -20px;}
+}
+
+#nav ul li:hover{
+    background-color: #333;
+    cursor: pointer;
+    
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav ul li a:hover{
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav ul li:hover ul{
+    display: block;
+    cursor: pointer;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background: #333;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+
+#nav ul ul li a,visited{
+    color: #ccc;
+    margin-top: -2.65em;
+}
+
+#nav ul li a:hover{
+    color: #3ea4ff;
+}
+.input-group{
+	width: 500px;
+    margin-right: -30px;
+}
+#searchButton{
+	margin-left: -80px;
+}
+
+#footer{
+    height: 30px;
+    background-color: #333; 
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+}
+
+#footer  p {
+    color: white;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+#btnPromote{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    background: #0675bb;
+    margin-right:6px;
+    margin-top:1em;
+}
+
+#btnBlock{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    background: #f00;
+    margin-right:6px;
+    margin-top:1em;
+}
+#txtPretraga{
+    width: 420px;
+}
+#searchButton{
+	margin-left: -80px;
+}

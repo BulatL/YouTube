@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+body{
+    background-image:url(../images/drvo.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: inherit;
+    background-position: center;
+    font-family: sans-serif;
+}
+#glavniKanalContainer{
+     text-align: left;
+}
+
+#KanalContainer{
+    margin:auto;
+    font-family: sans-serif;
+}
+
+#KanalContainerDescription{
+    float: right;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+#glavniContainer{
+    margin-top: 75px;
+}
+a {
+    color: #9b775d;
+    text-decoration: none;
+}
+
+a:hover{
+    color:  #09820d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#obrisiBtn, #dodajBtn, #izmeniBtn{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    float: right;
+    margin-top: -37px;
+    margin-right: 5px;
+}
+#obrisiBtn, #obrisiBtn2{
+    background: #f00;
+}
+#dodajBtn{
+	margin-right:50px;
+    background: #0675bb;
+}
+.imgVideo{
+	 margin-top: 18px;
+	margin-left: 2em;
+	height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+#izmeniBtn{
+    background: #17c311;
+}
+#izmeniBtn:hover, #izmeniBtn2:hover{
+    background: #057201;
+}
+#izmeniBtn2{
+	border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+	background: #09ad03;
+	float: center;
+	margin-right: 6px;
+}
+#dodajBtn:hover{
+    background: #025a91;
+}
+#obrisiBtn:hover, #obrisiBtn2:hover{
+    background: #aa1111;
+}
+
+#btnUnfollow, #btnFollow{  
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #f00;
+}
+#MyVideoContainer, #likedVideosContainer{
+    align-items: center;
+    text-align: center;
+}
+.panel-body{
+	margin-top: 20px;
+}
+#channelsFollowMe .panel-body, #channelsIFollow .panel-body{
+	text-align: left;
+	align-items: left;
+}
+#channelsFollowMe h2, #channelsIFollow h2{
+	align-items: center;
+    text-align: center;
+}
+
+#obrisiBtn2{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 10px;
+}
+.caption{
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+.panel{
+	background: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 20px;
+}
+
+#footer{
+    height: 30px;
+    background-color: #333; 
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+}
+
+#footer  p {
+    color: white;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+#nav_wrapper{
+    margin: -40 0 0 -150;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-left: -250px;
+    margin-top: -40px;
+}
+
+#nav ul li{
+    display: inline-block;
+    a{
+    margin-top: -20px;}
+}
+
+#nav ul li:hover{
+    background-color: #333;
+    cursor: pointer;
+    
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav ul li a:hover{
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav ul li:hover ul{
+    display: block;
+    cursor: pointer;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background: #333;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+
+#nav ul ul li a,visited{
+    color: #ccc;
+    margin-top: -2.65em;
+}
+
+#nav ul li a:hover{
+    color: #3ea4ff;
+}
+.input-group{
+	width: 500px;
+    margin-right: -15px;
+}
+#txtPretraga{
+    width: 420px;
+}
+#searchButton{
+	margin-left: -80px;
+}
+#btnPromote{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    background: #0675bb;
+    margin-right:6px;
+    margin-top:1em;
+}
+
+#btnBlock{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    background: #f00;
+    margin-right:6px;
+    margin-top:1em;
+}
+#btnPromote:hover{
+	background-color: #074b77;
+}
+#btnBlock:hover{
+	background: #a50415;
+}
+#saveEdit{
+	border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    float: right;
+    margin-left:10em;
+    background: #17c311;
+}
+#saveEdit:hover{
+	background: #057201;
+}
+#cancelEdit{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100px;
+    background: #f00;
+    margin-right:6px;
+    margin-top:1em;
+}
+#cancelEdit:hover{
+	background: #a50415;
+}
+.korisnikInformationInput{
+	background: rgba(0,0,0,0);
+    font-size: 2em;
+	
+}

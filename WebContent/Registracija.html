@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - YouTube</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/Registracija.css">
+    <script src="js/Registracija.js" type="text/javascript"></script>
+    <link rel="icon" href="images/register.png">
+
+</head>
+<body>	
+    <div class="loginbox">
+        <img src="images/avatar.png" class="avatar">
+   		<h1>Register</h1>
+        <p>First name</p>
+        <input id="firstNameInput" type="text" name="firstName" placeholder="Enter first name"required>
+
+        <p>Last name</p>
+        <input id="lastNameInput" type="text" name="lastName" placeholder="Enter last name"required>
+
+        <p>Email</p>
+        <input id="emailInput" type="email" name="email" placeholder="Enter email"required>
+
+        <p>Channel description</p>
+        <input id="channelDescriptionInput" type="text" name="channelDescription" placeholder="Enter channel Description" required>
+
+        <p>Username</p>
+        <input id="userNameInput" type="text" name="userName" placeholder="Enter username"required>
+
+        <p>Password</p>
+        <input id="passwordInput" type="password" name="password" placeholder="Enter password"  required>
+
+        <button id="registracijaBtn" type="submit" onclick="registracija()">Register</button>
+
+ 		<br/><a href="PocetnaStranica.html"><button id="cancel" type="submit">Cancel</button></a>
+
+    </div>
+</body>
+</html>

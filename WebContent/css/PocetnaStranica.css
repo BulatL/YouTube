@@ -1,0 +1,180 @@
+@charset "utf-8";
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+body{
+	background-image:url(../images/drvo.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: inherit;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.panel{
+	background: rgba(0,0,0,0.5);
+    color: #fff;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+}
+a {
+    color: #9b775d;
+    text-decoration: none;
+}
+
+a:hover{
+    color:  #09820d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#searchBy, #orderBy{
+	color:white;
+}
+
+#txtPretraga{
+    width: 420px;
+}
+
+#containerNavbar{
+    background: #333;
+}
+
+#footer{
+    height: 30px;
+    background-color: #333; 
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    position: fixed;
+}
+
+
+#footer  p {
+    color: white;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.caption p{
+   text-align: center;
+}
+
+
+header {
+	width: 80%;
+	height: 50%;
+    float: none;
+	background: url('../images/pppp.png')   ;
+	background-size: cover;
+	padding:5% 10% 20% 10%;
+	text-align: center;
+}
+
+.imgVideo{
+	margin-left: 2em;
+	height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+.caption{
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+
+.panel-body{
+	margin-top: 20px;
+}
+
+#mainUsersContainer .panel-body, #mainCommentContainer .panel-body{
+	text-align: left;
+	align-items: left;
+}
+
+#videoContainer{
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#mainUsersContainer h2{
+	align-items: center;
+    text-align: center;
+}
+.Video{
+	margin-bottom: 2em;'
+}
+
+#nav_wrapper{
+    margin: -40 0 0 -150;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-left: -250px;
+    margin-top: -40px;
+}
+
+#nav ul li{
+    display: inline-block;
+    a{
+    margin-top: -20px;}
+}
+
+#nav ul li:hover{
+    background-color: #333;
+    cursor: pointer;
+    
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav ul li:hover ul{
+    display: block;
+    cursor: pointer;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background: #333;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+
+#nav ul ul li a,visited{
+    color: #ccc;
+    margin-top: -2.65em;
+}
+
+
+.input-group{
+	width: 500px;
+    margin-right: -15px;
+}
+#searchButton{
+	margin-left: -80px;
+}

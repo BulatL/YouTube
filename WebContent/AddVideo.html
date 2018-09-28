@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Add video video</title>
+	    <script src="js/jquery-3.2.1.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/AddVideo.css">
+	    <script src="js/AddVideo.js" type="text/javascript"></script>
+	    <link rel="icon" href="images/media.svg">
+	    
+	
+	</head>
+	<body>
+	
+	    <div class="loginbox">
+	        <img src="images/media.svg" class="avatar">
+            <p>Youtube url</p>
+            <input id="youtubeUrlInput" type="text" placeholder="Enter embed url to youtube video" required>
+
+            <p>Name</p>
+            <input id="nameInput" type="text" placeholder="Enter name of the video" required>
+
+            <p>Description</p>
+            <input id="descriptionInput" type="text" placeholder="Enter description" required>
+            
+            <p>Visibility of the video</p><br/>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3"> 
+                        <input type="radio" name="visibility" value="PUBLIC" checked>PUBLIC
+                    </div>
+                    <div class="col-lg-3"> 
+                        <input type="radio" name="visibility" value="PRIVATE"> PRIVATE
+                    </div>
+                    <div class="col-lg-3"> 
+                        <input type="radio" name="visibility" value="UNLISTED"> UNLISTED
+                    </div>
+                </div>
+            </div>
+            
+            <input type="checkbox" id="dozvoliRaiting" checked> Show numbers of likes<br/>
+        
+            <input type="checkbox" id="dozvoliKomentare" checked> Allow comments<br/>
+            <br/><button id="addVideoSubmit" onclick="addVideo()">Add video</button><br/>
+            <button id="cancel" onclick="cancel()">Cancel</button> 
+	    </div>
+	</body>
+</html>
